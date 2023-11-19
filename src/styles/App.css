@@ -11,8 +11,10 @@ html {
 
 .container {
     max-width: 1140px;
+    height: 100vh;
     padding: 0 2%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }
