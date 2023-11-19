@@ -1,7 +1,14 @@
+import { Calculator } from './components/Calculator';
 import './styles/App.css';
 
 function App() {
-    return <h1>Calculadora</h1>;
+    return (
+        <div className="container">
+            <div className="calculator">
+                <Calculator />
+            </div>
+        </div>
+    );
 }
 
 export default App;

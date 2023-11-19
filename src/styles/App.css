@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: 'Helvetica', sans-serif;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 2%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
