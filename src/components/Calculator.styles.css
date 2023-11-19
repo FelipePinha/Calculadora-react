@@ -37,14 +37,22 @@ button.calculator-clear {
 }
 
 .calculator-result {
-    text-align: right;
     padding: 2rem 3.3rem;
     background-color: #505050;
     border-radius: 1.6rem;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
 }
 
 .calculator-result h1 {
     font-size: 3.5rem;
+    color: #fff;
+}
+
+.calculator-result span {
+    font-size: 2rem;
     color: #fff;
 }
